@@ -1,0 +1,176 @@
+<html lang="en">
+<head>
+    <link rel="stylesheet" href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css'>
+    <link rel="stylesheet" href="Valletbox.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Voting</title>
+</head>
+<body>
+    <!-- Voting box and vallidation design -->
+    <div class="main" id="ballot">
+        <div class="main2">
+            <div class="main3">
+                <div class="lb">
+                    <table border="2px">
+                        <tr>
+                            <td>
+                                <div class="label">
+                                    <label>Congress</label><img src="congress.png">
+                                </div>
+                            </td>
+                            <td class="arrow" colspan="2" id="cong">
+                                <i class='bx bxs-left-arrow-circle' id="cong1"></i>
+                                <button id="congress" value="cgn"></button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="label">
+                                    <label></label>
+                                    <label>BJP</label>
+                                    <img src="BJP.png" alt="bjp">
+                                </div>
+                            </td>
+                            <td class="arrow" colspan="2" id="cong2">
+                                <i class='bx bxs-left-arrow-circle' id="bjp1"></i>
+                                <button id="bjp" value="bjps"></button>
+                            </td>                
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="label">
+                                    <label>TDP</label>
+                                    <img src="tdp.jpg" alt="tdp">
+                                </div>
+                            </td>
+                            <td class="arrow" colspan="2" id='cong10'>
+                                <i class='bx bxs-left-arrow-circle' id="tdp1"></i>
+                                <button id="tdp"></button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="label">
+                                    <label>YSR Congress</label>
+                                    <img src="ysr.png" alt="ysr">
+                                </div>
+                            </td>
+                            <td class="arrow" colspan="2" id="cong3">
+                                <i class='bx bxs-left-arrow-circle' id="ysr1"></i>
+                                <button id="ysr"></button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="label">
+                                    <label>Loksatha</label>
+                                    <img src="download.png" alt="loksatha">
+                                </div>
+                            </td>
+                            <td class="arrow" colspan="2" id="cong4">
+                                <i class='bx bxs-left-arrow-circle' id="lok1"></i>
+                                <button id="lok"></button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="label">
+                                    <label>CPM</label>
+                                    <img src="cpm.png" alt="cpm">
+                                </div class="label">
+                            </td>
+                            <td class="arrow" colspan="2" id="cong5">
+                                <i class='bx bxs-left-arrow-circle' id="cpm1"></i>
+                                <button id="cpm"></button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="label">
+                                    <label>TRS</label>
+                                    <img src="trs.png" alt="trs">
+                                </div class="label">
+                            </td>
+                            <td class="arrow" colspan="2" id="cong6">
+                                <i class='bx bxs-left-arrow-circle' id="trs1"></i>
+                                <button id="trs"></button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="label">
+                                    <label>PRP</label>
+                                    <img src="prp.png" alt="prp">
+                                </div>
+                            </td>
+                            <td class="arrow" colspan="2" id="cong7">
+                                <i class='bx bxs-left-arrow-circle' id="prp1"></i>
+                                <button id="prp"></button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="label2">
+                                    <label class="nota">NOTA</label>
+                                </div>
+                            </td>
+                            <td class="arrow" colspan="2" id="cong8">
+                                <i class='bx bxs-left-arrow-circle' id="nota"></i>
+                                <button id="none"></button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="label2">
+                                    
+                                </div>
+                            </td>
+                            <td class="arrow">
+                                <i class='bx bxs-left-arrow-circle'></i>
+                            </td>
+                            <td class="button">
+                                <button id="none2"></button>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main9">
+        <div id="screen">
+            <img src="congress.png" id="con">
+            <div class="main11">
+                <div>
+                    <button id="power"></button>
+                </div>
+                <div class="off">
+                    <button id="poweroff"><i class='bx bx-power-off'></i></button>
+                </div>
+                <div class="reset">
+                    <button id="res">Reset</button>
+                </div>
+                <div class="counter">
+                    <button id="count">Count</button>
+                </div>
+                <div>
+                    <button id="yes">&#10004</button>
+                    <button id="wrong">X</button>
+                </div>
+                <div class="r">
+                    <button id="right">&#10004</button>
+                    <button id="wrong2">X</button>
+                </div>
+                <div class="arrows">
+                    <button id="left">&#8592</button>
+                    <button id="rightarrow">&#8594</button>
+                </div>
+                <p id="c">gu</p>
+            </div>
+        </div>
+    </div>
+    <script src="ballot.js"></script>
+</body>
+</html>

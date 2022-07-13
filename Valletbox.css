@@ -1,0 +1,310 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+img{
+    height: 25px;
+    margin-left: 10px;
+}
+.lb{
+    padding-top: 15px;
+    display: inline;
+}
+table{
+    margin-left: 6%;
+    box-shadow: 0px 5px 5px gray;
+}
+.label{
+    margin-top: 20px;
+    width: 180px;
+    background-color: #d3fefc;
+    color:#f01347 ;
+    border: 2px solid #d3fefc;
+    border-radius: 9px;
+    padding-left:15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+}
+.label2{
+    height: 33px;
+    margin-top: 15px;
+    position: relative;
+    width: 200px;
+    background-color: #d3fefc;
+    color:#f01347;
+    border: 2px solid #d3fefc;
+    border-radius: 9px;
+}
+.nota{
+    padding-left: 30px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    padding-top: 10px;
+}
+.main3{
+    width: 430px;
+    height: 640px;
+    background-color: #acbacb;
+    margin-top: 5%;
+    margin-left: 10%;
+    box-shadow: 0px 5px 5px;
+}
+.main2{
+    background-color: #868885;
+    width: 520px;
+    height: 640px;
+    margin-left:5%;
+    border-radius: 15px;
+    box-shadow: 0px 5px 5px gray;
+}
+.main{
+    background-color: #292f40;
+    width: 580px;
+    height: 640px;
+    border-radius: 20px;
+    margin-left: 10%;
+}
+.arrow{
+    width: 50px;
+    font-size: 28px;
+    position: relative;
+    top: 0px;
+}
+#congress{
+    border:2px;
+    width: 70px;
+    height: 35px;
+    background-color: #292f40;
+    border-radius: 30px;
+    box-shadow: 5px 8px 5px gray inset;
+    position: relative;
+    top: 10px;
+    left:9px;
+    cursor: pointer;
+}
+#bjp{
+    border:2px;
+    width: 70px;
+    height: 35px;
+    background-color: #292f40;
+    border-radius: 30px;
+    box-shadow: 5px 8px 5px gray inset;
+    position: relative;
+    top: 10px;
+    left:9px;
+    cursor: pointer;
+}
+#tdp{
+    border:2px;
+    width: 70px;
+    height: 35px;
+    background-color: #292f40;
+    border-radius: 30px;
+    box-shadow: 5px 8px 5px gray inset;
+    position: relative;
+    top: 10px;
+    left:9px;
+    cursor: pointer;
+}
+#ysr{
+    border:2px;
+    width: 70px;
+    height: 35px;
+    background-color: #292f40;
+    border-radius: 30px;
+    box-shadow: 5px 8px 5px gray inset;
+    position: relative;
+    top: 10px;
+    left:9px;
+    cursor: pointer;
+}
+#lok{
+    border:2px;
+    width: 70px;
+    height: 35px;
+    background-color: #292f40;
+    border-radius: 30px;
+    box-shadow: 5px 8px 5px gray inset;
+    position: relative;
+    top: 10px;
+    left:9px;
+    cursor: pointer;
+}
+#cpm{
+    border:2px;
+    width: 70px;
+    height: 35px;
+    background-color: #292f40;
+    border-radius: 30px;
+    box-shadow: 5px 8px 5px gray inset;
+    position: relative;
+    top: 10px;
+    left:9px;
+    cursor: pointer;
+}
+#trs{
+    border:2px;
+    width: 70px;
+    height: 35px;
+    background-color: #292f40;
+    border-radius: 30px;
+    box-shadow: 5px 8px 5px gray inset;
+    position: relative;
+    top: 10px;
+    left:9px;
+    cursor: pointer;
+}
+#prp{
+    border:2px;
+    width: 70px;
+    height: 35px;
+    background-color: #292f40;
+    border-radius: 30px;
+    box-shadow: 5px 8px 5px gray inset;
+    position: relative;
+    top: 10px;
+    left:9px;
+    cursor: pointer;
+}
+#none{
+    border:2px;
+    width: 70px;
+    height: 35px;
+    background-color:#868885;
+    border-radius: 30px;
+    box-shadow: 5px 8px 5px gray inset;
+    position: relative;
+    top: 10px;
+    left:9px;
+    cursor: pointer;
+}
+#none2{
+    border:2px;
+    width: 70px;
+    height: 35px;
+    background-color:#868885;
+    border-radius: 30px;
+    box-shadow: 5px 8px 5px gray inset;
+    position: relative;
+    top: 0px;
+    left:2px;
+    cursor: pointer;
+}
+.main9{
+    margin-right: 100px;
+    border: 2px solid #acbacb;
+    width: 400px;
+    height: 500px;
+    position: relative;
+    left: 750px;
+    top:-580px;
+    right: 100px;
+    background-color: #acbacb;
+}
+#screen{
+    border: 2px solid gray;
+    height: 150px;
+    width: 350px;
+    margin-left: 6%;
+    margin-top: 10%;
+    background-color: #010101;
+    box-shadow: 0px 5px 10px 0px inset gray;
+}
+.off{
+    margin-top:30%;
+    margin-left: 44%;
+}
+#poweroff{
+    font-size: 40px;
+    border-radius: 5px;
+    border: #acbacb;
+    cursor: pointer;
+    color: rgb(133, 212, 15);
+}
+#res{
+    font-size:20px;
+    border: #acbacb;
+    background-color:#c70302;
+    color: white;
+    padding: 5px;
+    width: 80px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#count{
+    font-size:20px;
+    border: #acbacb;
+    background-color:#c70302;
+    color: white;
+    padding: 5px;
+    width: 80px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.reset{
+    margin-top: 3%;
+}
+.counter{
+    position: relative;
+    left: 250px;
+    top:-33px
+}
+#yes{
+    font-size: 18px;
+    width: 40px;
+}
+#wrong{
+    font-size: 18px;
+    width: 40px;
+    height: 27px;
+}
+#wrong2{
+    font-size: 18px;
+    width: 40px;
+    height: 28px;
+}
+#right{
+    font-size: 18px;
+    width: 40px;
+}
+.r{
+    position: relative;
+    left: 240px;
+    top:-21px;
+}
+#left{
+    position: relative;
+    left: 240px;
+    width: 35px;
+    height: 25px;
+    top:-10px
+}
+#rightarrow{
+    position: relative;
+    left: 245px;
+    width: 35px;
+    height: 25px;
+    top:-10px
+}
+#con{
+    margin-left: 38%;
+    margin-top: 10%;
+    height: 60px;
+    border-radius: 10px;
+    visibility: hidden;
+}
+#power{
+    position: relative;
+    top:70px;
+    left: 280px;
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+}
+.btable{
+    border-color:aqua;   
+}
